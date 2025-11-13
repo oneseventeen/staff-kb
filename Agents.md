@@ -24,6 +24,7 @@
   - camelCase for functions/variables
   - kebab-case for all component files and folders
 - **Exports**: Use named exports for all components (no default exports)
+  - Exception: `layout.tsx` and `page.tsx` files in the app directory require default exports
 - **UI Components**: Keep in `src/components/ui/` following shadcn conventions
 - **Feature Components**: Organize in kebab-case folders with index.ts barrel exports
 - **Actions**: 
